@@ -1,6 +1,6 @@
 # Eigenvalue Decay Regularizer for Keras
 Eigenvalue Decay is a new option of weight regularizer to the deep learning practitioner that aims at maximum-margin learning.
-This code implements a light version of the Eigenvalue Decay regularizer for the Keras library. This version approximates the dominant eigenvalue by a soft function given by the power method. In case of publication using this package cite:
+This code implements a light version of the Eigenvalue Decay regularizer for the Keras library. This version approximates the dominant eigenvalue by a soft function given by the power method. In case of publication using this software package cite:
 
 Oswaldo Ludwig, Urbano Nunes, and Rui Araujo. "Eigenvalue decay: A new method for neural network regularization." Neurocomputing 124 (2014): 33-42.  
 
