@@ -20,10 +20,10 @@ INSTALLATION AND USE:
 
 3) The syntax for Eigenvalue Decay is similar to the other Keras weight regularizers, e.g.:
 
-	 model.add(Dense(100, init='he_normal', W_regularizer=EigenvalueRegularizer(0.0005)))
+	 model.add(Dense(100, W_regularizer=EigenvalueRegularizer(0.0005)))
 
-This folder also provides three examples of models from the Keras repository including regularization with Eigenvalue Decay: “Experiment1.py”, “Experiment2.py”, “Experiment3.py”. To run in GPU you can call the code like this:
+This folder also provides an example of a model from the Keras repository including regularization with Eigenvalue Decay: “example.py”. To run in GPU you can call the code like this:
 
-THEANO_FLAGS=mode=FAST_RUN,device=gpu,floatX=float32,exception_verbosity=high python Experiment1.py
+THEANO_FLAGS=mode=FAST_RUN,device=gpu,floatX=float32,exception_verbosity=high python example.py
 
-These experiments are the same as reported in our last paper, cited above. The original models from Keras repository (without Eigenvalue Decay) can be downloaded here: https://github.com/fchollet/keras/tree/master/examples
+The original models from Keras repository (without Eigenvalue Decay) can be downloaded here: https://github.com/fchollet/keras/tree/master/examples
