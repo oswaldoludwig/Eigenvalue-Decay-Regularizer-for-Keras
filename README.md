@@ -7,7 +7,7 @@ Oswaldo Ludwig, Urbano Nunes, and Rui Araujo. "Eigenvalue decay: A new method fo
 and the paper on deep learning with Eigenvalue Decay: 
 
 Oswaldo Ludwig. "Deep learning with Eigenvalue Decay regularizer." ArXiv eprint arXiv:1604.06985 [cs.LG], (2016).
-https://arxiv.org/abs/1604.06985
+https://www.researchgate.net/publication/301648136_Deep_Learning_with_Eigenvalue_Decay_Regularizer
 
 INSTALLATION AND USE:
 
