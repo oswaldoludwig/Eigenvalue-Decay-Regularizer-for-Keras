@@ -13,9 +13,8 @@ INSTALLATION AND USE:
 
 1) Download the file “EigenvalueDecay.py” and save it in the same folder as your Keras model;
 
-2) Include the following lines in your model file to import Eigenvalue Decay:
+2) Include the following line in your model file to import Eigenvalue Decay:
  
-	from EigenvalueDecay import Regularizer
 	from EigenvalueDecay import EigenvalueRegularizer
 
 3) The syntax for Eigenvalue Decay is similar to the other Keras weight regularizers, e.g.:
@@ -26,4 +25,6 @@ This folder also provides an example of a model from the Keras repository includ
 
 THEANO_FLAGS=mode=FAST_RUN,device=gpu,floatX=float32,exception_verbosity=high python example.py
 
-The original models from Keras repository (without Eigenvalue Decay) can be downloaded here: https://github.com/fchollet/keras/tree/master/examples
+After training, you have to save the trained weights, create/compile a similar model without Eingenvalue Decay and save this model. Then, you can use your trained weights with this model (see lines 78-110 of “example.py”).
+
+For comparison, the original models from Keras repository (without Eigenvalue Decay) can be downloaded here: https://github.com/fchollet/keras/tree/master/examples
