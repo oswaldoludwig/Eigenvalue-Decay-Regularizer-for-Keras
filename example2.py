@@ -61,10 +61,10 @@ model.add(MaxPooling2D(pool_size=(2, 2)))
 model.add(Dropout(0.25))
 
 model.add(Flatten())
-model.add(Dense(512,W_regularizer=EigenvalueRegularizer(0.1))) #Applying Eigenvalue Decay with C=0.01
+model.add(Dense(512,W_regularizer=EigenvalueRegularizer(0.1))) #Applying Eigenvalue Decay with C=0.1
 model.add(Activation('relu'))
 model.add(Dropout(0.5))
-model.add(Dense(nb_classes,W_regularizer=EigenvalueRegularizer(0.1))) #Applying Eigenvalue Decay with C=0.001
+model.add(Dense(nb_classes,W_regularizer=EigenvalueRegularizer(0.1))) #Applying Eigenvalue Decay with C=0.1
 model.add(Activation('softmax'))
 
 
