@@ -27,4 +27,6 @@ THEANO_FLAGS=mode=FAST_RUN,device=gpu,floatX=float32,exception_verbosity=high py
 
 After training, you have to save the trained weights, create/compile a similar model without Eingenvalue Decay and save this model. Then, you can use your trained weights with this model (see lines 78-110 of “example.py”).
 
+The second example (example2.py) yields a larger gain in the accuracy by the use of Eigenvalue Decay: 2.71% of gain (averaged over 10 runs).
+
 For comparison, the original models from Keras repository (without Eigenvalue Decay) can be downloaded here: https://github.com/fchollet/keras/tree/master/examples
