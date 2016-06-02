@@ -30,3 +30,5 @@ After training, you have to save the trained weights, create/compile a similar m
 The second example (example2.py) yields a larger gain in the accuracy by the use of Eigenvalue Decay: 2.71% of gain (averaged over 10 runs).
 
 For comparison, the original models from Keras repository (without Eigenvalue Decay) can be downloaded here: https://github.com/fchollet/keras/tree/master/examples
+
+(This code is only for Theano backend)
