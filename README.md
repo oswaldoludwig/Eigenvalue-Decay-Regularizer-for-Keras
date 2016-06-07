@@ -31,4 +31,4 @@ The second example (example2.py) yields a larger gain in the accuracy by the use
 
 For comparison, the original models from Keras repository (without Eigenvalue Decay) can be downloaded here: https://github.com/fchollet/keras/tree/master/examples
 
-(This code is only for Theano backend)
+(This code is only for Theano backend a version for TensorFlow backend can be found in my fork of Keras, see regularizers.py)
