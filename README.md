@@ -31,4 +31,6 @@ The second example (example2.py) yields a larger gain in the accuracy by the use
 
 For comparison, the original models from Keras repository (without Eigenvalue Decay) can be downloaded here: https://github.com/fchollet/keras/tree/master/examples
 
-(This code is only for Theano backend a version for TensorFlow backend can be found in my fork of Keras, see regularizers.py)
+This code is only for Theano backend a version for both Theano and TensorFlow backends is already available in Keras. If Keras is already installed, you can update it to have Eigenvalue Decay:
+
+sudo pip install git+git://github.com/fchollet/keras.git --upgrade
